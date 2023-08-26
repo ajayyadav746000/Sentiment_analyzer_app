@@ -1,4 +1,7 @@
-
+!pip install nltk
+!pip install contractions
+!pip install wordnet
+nltk.download('wordnet')
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import streamlit as st
